@@ -1,12 +1,14 @@
 graphite-vm
 ===========
 
-Type:
+## Installation
 
 ```
 vagrant up
 ```
 
+
+## Forwarded ports:
 
 ```
 config.vm.network "forwarded_port", guest: 80, host: 18080
